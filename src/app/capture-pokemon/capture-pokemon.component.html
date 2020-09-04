@@ -1,3 +1,9 @@
 <div class="text-center">
-  <h1>Hello Capture Pokemon</h1> 
+  <h1>{{pokemon}}</h1>
+
+  <div>
+    <button mat-raised-button color="primary" class="mr-2">Capture this pokemon</button>
+    <button mat-raised-button color="warn" [routerLink]="['']">Run away</button>
+  </div>
+
 </div>
